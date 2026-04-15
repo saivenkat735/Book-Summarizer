@@ -14,4 +14,4 @@ for chunk in chunks:
         input=f"Summarize this text: {chunk}"
     )
     print(chunk_summary.output_text)
-    print("---")
+    print("----")
